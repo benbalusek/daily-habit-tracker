@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.DailyHabit {
+  border: 1px solid black;
+  margin: 20px;
+  width: 200px;
+}
+
+.DailyHabit button {
+  float: right;
+  padding: 0.2em 0.6em;
+  margin: 8px;
+  font-size: 0.75em;
+}
+
+.completed {
+  color: rgb(236, 66, 66);
+}
+
+.DailyHabitGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.NewHabitForm div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.NewHabitForm label {
+  width: 150px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.NewHabitForm {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.DailyHabit input {
+  float: left;
+  margin: 10px;
+  transform: scale(1.15);
+  transform-origin: center;
+}
+
+.dark-theme {
+  color: #ffffff;
+  background-color: #333333;
+}
